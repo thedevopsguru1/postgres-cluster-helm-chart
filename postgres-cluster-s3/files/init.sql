@@ -1,0 +1,5 @@
+\c dbname;
+
+CREATE EXTENSION IF NOT EXISTS postgis;
+CREATE EXTENSION IF NOT EXISTS timescaledb;
+CREATE SCHEMA demo2;
